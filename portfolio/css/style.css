@@ -1,0 +1,146 @@
+/* Portfolio Stylesheet
+   Harry Fahringer III
+   7 May 2017
+*/
+
+/* Body, background and font color, font */
+
+body {
+  background-color: #666;
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+}
+
+body li {
+  list-style-type: none;
+}
+
+body h1 {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  padding: 20px 0px;
+}
+
+body h4 {
+  padding: 5px 20px;
+}
+
+/* header: logo and navigation */
+
+#headerContainer {
+  border-top: 6px solid #cf1717;
+  background-color: #202020;
+  box-shadow: 0px 10px 10px #383838;
+}
+
+#siteBrand {
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+}
+
+#siteBrand img {
+  width: 100%;
+}
+
+/* md-lg screen fix
+   header gets too large
+   after transitioning
+*/
+.img-responsive {
+  display: inline !important;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  height: 100%;
+  font-size: x-large;
+}
+
+nav a {
+  color: #7e7e7e;
+}
+
+/* End Header */
+
+/* Body: about, porfolio, contact */
+
+
+/* About Section */
+
+#aboutSection {
+  background-color: #7e7e7e;
+  color: antiquewhite;
+  padding-top: 100px;
+}
+
+#aboutLeft {
+  margin-top: 20px;
+}
+
+#aboutSection a {
+  color: whitesmoke;
+}
+
+#aboutSection img {
+  max-width: 250px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+/* Portfolio Section */
+
+#portfolioSection {
+  background-color: whitesmoke;
+  color: #7e7e7e;
+  padding-top: 100px;
+}
+
+#portfolioSection img {
+  max-width: 500px;
+  padding-bottom: 50px;
+}
+
+/* Contact Section */
+
+#contactSection {
+  background-color: #7e7e7e;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+form {
+  padding-top: 50px;
+}
+
+
+#contactForm {
+  padding-left: 75px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #202020;
+  border-bottom: 6px solid #cf1717;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer li {
+  display: inline;
+  padding: 15px;
+}
+
+#disclaimer {
+  padding-top: 15px;
+  padding-left: 46px;
+}
+
+/* Main Container Drop Shadow */
+
+#aboutSection, #portfolioSection, #contactSection {
+  box-shadow: 0px 12px 12px #383838;
+}
