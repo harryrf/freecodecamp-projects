@@ -3,6 +3,24 @@
    7 May 2017
 */
 
+
+/* Make containers fluid on small screens */
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  body {
+    padding: 0px;
+  }
+  #aboutSection,
+  #portfolioSection,
+  #contactSection {
+    padding: 0px;
+  }
+}
+
+
 /* Body, background and font color, font */
 
 body {
@@ -25,6 +43,7 @@ body h4 {
   padding: 5px 20px;
 }
 
+
 /* header: logo and navigation */
 
 #headerContainer {
@@ -43,10 +62,12 @@ body h4 {
   width: 100%;
 }
 
+
 /* md-lg screen fix
    header gets too large
    after transitioning
 */
+
 .img-responsive {
   display: inline !important;
 }
@@ -62,7 +83,9 @@ nav a {
   color: #7e7e7e;
 }
 
+
 /* End Header */
+
 
 /* Body: about, porfolio, contact */
 
@@ -90,6 +113,7 @@ nav a {
   float: right;
 }
 
+
 /* Portfolio Section */
 
 #portfolioSection {
@@ -99,9 +123,10 @@ nav a {
 }
 
 #portfolioSection img {
-  max-width: 500px;
+  max-width: 90%;
   padding-bottom: 50px;
 }
+
 
 /* Contact Section */
 
@@ -115,10 +140,10 @@ form {
   padding-top: 50px;
 }
 
-
 #contactForm {
   padding-left: 75px;
 }
+
 
 /* Footer */
 
@@ -139,8 +164,11 @@ footer li {
   padding-left: 46px;
 }
 
+
 /* Main Container Drop Shadow */
 
-#aboutSection, #portfolioSection, #contactSection {
+#aboutSection,
+#portfolioSection,
+#contactSection {
   box-shadow: 0px 12px 12px #383838;
 }
