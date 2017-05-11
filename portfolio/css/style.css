@@ -10,14 +10,6 @@
   .container {
     width: 100%;
   }
-  body {
-    padding: 0px;
-  }
-  #aboutSection,
-  #portfolioSection,
-  #contactSection {
-    padding: 0px;
-  }
 }
 
 
@@ -96,6 +88,8 @@ nav a {
   background-color: #7e7e7e;
   color: antiquewhite;
   padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 #aboutLeft {
@@ -120,11 +114,21 @@ nav a {
   background-color: whitesmoke;
   color: #7e7e7e;
   padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+#portfolioSection li {
+  padding-right: 40px;
 }
 
 #portfolioSection img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 100px;
+}
+
+#contact-pic {
   max-width: 90%;
-  padding-bottom: 50px;
 }
 
 
