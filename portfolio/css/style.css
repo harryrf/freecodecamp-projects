@@ -4,21 +4,13 @@
 */
 
 
-/* Make containers fluid on small screens */
-
-@media (max-width: 992px) {
-  .container {
-    width: 100%;
-  }
-}
-
-
 /* Body, background and font color, font */
 
 body {
   background-color: #666;
   font-family: 'Oswald', sans-serif;
   color: whitesmoke;
+  width: 100%;
 }
 
 body li {
@@ -31,9 +23,11 @@ body h1 {
   padding: 20px 0px;
 }
 
+/*
 body h4 {
   padding: 5px 20px;
 }
+*/
 
 
 /* header: logo and navigation */
@@ -74,9 +68,6 @@ nav li {
 nav a {
   color: #7e7e7e;
 }
-
-
-/* End Header */
 
 
 /* Body: about, porfolio, contact */
