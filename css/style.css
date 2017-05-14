@@ -27,6 +27,10 @@ body h4 {
   padding: 5px 20px;
 }
 
+.img-responsive {
+  display: inline !important;
+}
+
 
 /* header: logo and navigation */
 
@@ -52,10 +56,6 @@ header gets too large
 after transitioning
 */
 
-.img-responsive {
-  display: inline !important;
-}
-
 nav li {
   display: inline;
   height: 100%;
@@ -64,6 +64,10 @@ nav li {
 
 nav a {
   color: #7e7e7e;
+}
+
+nav {
+  padding: 0px;
 }
 
 
