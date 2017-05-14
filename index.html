@@ -1,18 +1,3 @@
-<!--
-TODO:
-      
-      square logo to go on top of menu when small screen.
-     
-      "pull" about picture on top of text when screen is small.
-      
-      Page needs more love when being viewed on small screens;
-      make page full width, add a "hamburger" menu
-      check all images and fix as needed.
-      
-      
-      
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,13 +17,13 @@ TODO:
   <header id="headerContainer" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <a href="#" class="navbar-brand"><img class="img img-responsive" src="images/square-link.png"></a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseNav">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
       <nav role="navigation">
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="collapseNav">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#aboutSection" class="scrollable">ABOUT</a></li>
             <li><a href="#portfolioSection" class="scrollable">PORTFOLIO</a></li>
@@ -55,11 +40,11 @@ TODO:
 
     <section id="aboutSection">
       <div class="row">
-        <div class="col-md-12">
-          <div class="col-md-3 col-md-push-7 col-md-offset-1">
+        <div class="col-sm-12">
+          <div class="col-sm-4 col-sm-push-6 col-sm-offset-1">
             <img src="http://abstrakt.ws/uploaded/harry-2015.jpg" alt="" class="img img-responsive img-circle">
           </div>
-          <div id="about-info" class="col-md-6 col-md-pull-4 col-md-offset-1">
+          <div id="about-info" class="col-sm-6 col-sm-pull-6 col-sm-offset-1 col-md-6 col-md-offset-1">
             <h4>WEB DEVELOPMENT ENTHUSIAST WORKING IN HTML5 &amp; CSS3 ALONG WITH BOOTSTRAP, JAVASCRIPT, &amp; JQUERY. CURRENTLY ENROLLED AT <a href="http://freecodecamp.com" target="_blank">FREECODECAMP.COM</a></h4>
           </div>
         </div>
@@ -73,19 +58,19 @@ TODO:
 
     <section id="portfolioSection">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <h1 class="text-center">PORTFOLIO</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://abstrakt.ws/projects/contact/index.html" target="_blank"><img src="http://abstrakt.ws/projects/contact/contact.jpg" alt="" class="img img-responsive"></a>
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://abstrakt.ws/projects/dimes-tribute/index.html" target="_blank"><img src="http://abstrakt.ws/projects/dimes-tribute/dimes-tribute.jpg" alt="" class="img img-responsive">
@@ -95,7 +80,7 @@ TODO:
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://placehold.it"><img src="http://placehold.it/565x405" alt="" class="img img-responsive">
@@ -103,7 +88,7 @@ TODO:
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://placehold.it"><img src="http://placehold.it/565x405" alt="" class="img img-responsive">
@@ -113,7 +98,7 @@ TODO:
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://placehold.it"><img src="http://placehold.it/565x405" alt="" class="img img-responsive">
@@ -121,7 +106,7 @@ TODO:
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <ul>
             <li>
               <a href="http://placehold.it"><img src="http://placehold.it/565x405" alt="" class="img img-responsive">
@@ -148,34 +133,34 @@ TODO:
         </div>
       </div>
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-xs-11 col-xs-offset-1">
           <form>
             <div id="contactForm" class="row">
-              <div class="form-group col-md-3 col-md-offset-2 input-group">
+              <div class="form-group col-xs-11 col-md-9 col-md-offset-1 col-lg-7 col-lg-offset-2 input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                 <input type="text" placeholder="Name" class="form-control">
               </div>
             </div>
             <div id="contactForm" class="row">
-              <div class="form-group col-md-7 col-md-offset-2 input-group">
+              <div class="form-group col-xs-11 col-md-9 col-md-offset-1 col-lg-7 col-lg-offset-2 input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                 <input type="email" placeholder="Email" class="form-control">
               </div>
             </div>
             <div id="contactForm" class="row">
-              <div class="form-group col-md-7 col-md-offset-2 input-group">
+              <div class="form-group col-xs-11 col-md-9 col-md-offset-1 col-lg-7 col-lg-offset-2 input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
                 <input type="text" placeholder="Website" class="form-control">
               </div>
             </div>
             <div id="contactForm" class="row">
-              <div class="form-group col-md-7 col-md-offset-2 input-group">
+              <div class="form-group col-xs-11 col-md-9 col-md-offset-1 col-lg-7 col-lg-offset-2 input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
                 <textarea class="form-control" placeholder="Write your message here" rows="8"></textarea>
               </div>
               <div class="row">
-                <div class="col-md-4 col-md-offset-8">
-                  <button type="submit" class="btn btn-primary">Send</button>
+                <div class="col-xs-3 col-md-offset-1 col-lg-offset-2">
+                  <button type="submit" class="btn-lg btn-primary">Send</button>
                 </div>
               </div>
             </div>
@@ -187,29 +172,30 @@ TODO:
   <!-- End Body Container -->
   <footer class="text-center container-fluid">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <ul>
           <li><a class="button social" href="https://www.linkedin.com/in/harry-fahringer-131475121/" title="Linkedin" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
           <li><a class="button social" href="https://twitter.com/harryrf3" title="Twitter" target="_blank"><i class="fa fa-fw fa-twitter fa-2x" aria-hidden="true"></i></a></li>
           <li><a class="button social" href="https://github.com/harryrf" title="GitHub" target="_blank"><i class="fa fa-fw fa-github fa-2x" aria-hidden="true"></i></a></li>
           <li><a class="button social" href="http://codepen.io/harryrf3/" title="CodePen" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a></li>
+          <li><a class="button social" href="http://jsfiddle.net/user/harryrf/fiddles/" title="JSFiddle" target="_blank"><i class="fa fa-jsfiddle fa-2x" aria-hidden="true"></i></a></li>
           <li><a class="button social" href="https://freecodecamp.com/harryrf" title="FreeCodeCamp" target="_blank"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <div id="disclaimer" class="text-jusitify">Harry Fahringer III <span>&copy; 2017. All rights reserved.</span>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
   <script src="js/smoothScrolling.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 

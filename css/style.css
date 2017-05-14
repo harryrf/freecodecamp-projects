@@ -4,9 +4,6 @@ Harry Fahringer III
 */
 
 
-/* Media */
-
-
 /* Body, background and font color, font */
 
 body {
@@ -62,7 +59,7 @@ after transitioning
 nav li {
   display: inline;
   height: 100%;
-  font-size: xx-large;
+  font-size: large;
 }
 
 nav a {
@@ -84,8 +81,14 @@ nav a {
 }
 
 #about-info {
-  margin-top: 20px;
+  margin-top: 75px;
   text-align: justify;
+}
+
+@media screen and (min-width: 1000px) {
+  #about-info {
+    margin-top: 120px;
+  }
 }
 
 #aboutSection a {
@@ -93,7 +96,8 @@ nav a {
 }
 
 #aboutSection img {
-  max-width: 90%;
+  max-height: 100%;
+  max-width: 100%;
   margin-top: 0px;
 }
 
@@ -139,12 +143,12 @@ footer {
 
 footer li {
   display: inline;
-  padding: 15px;
+  padding: 10px;
 }
 
 #disclaimer {
   padding-top: 15px;
-  padding-left: 46px;
+  /*  padding-left: 46px;*/
 }
 
 
